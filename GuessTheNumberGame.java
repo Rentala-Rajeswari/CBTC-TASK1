@@ -46,7 +46,7 @@ public class GuessTheNumberGame {
             			 guessingNumberGame();
             		 }
             		 else{
-            		     return 0;
+            		     System.exit(0);
             		 }
             		 
         		}
@@ -73,7 +73,7 @@ public class GuessTheNumberGame {
             	 guessingNumberGame();
             }
             else{
-                return 0;
+                System.exit(0);
             }
     
         }
